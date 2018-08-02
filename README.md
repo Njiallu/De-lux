@@ -1,5 +1,7 @@
 <h1 align=center>De-Lux project</h1>
 
+---
+
 ## Goal
 
 The De-Lux project's goal is to provide an easy, efficient and versatile desktop experience for users of the X server. The main focus at the moment is defining what De-Lux will be. But we already have some guidelines following the `a*ap` mantra:
