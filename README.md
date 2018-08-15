@@ -19,12 +19,12 @@ The De-Lux project's goal is to provide an easy, efficient and versatile desktop
 
 ## Components
 
-- Window manager
-- Dock / taskbar / status bar
-- Notification daemon
-- Configurator / Centralized config panel
-- Screen locker
-- Session manager
+- [ ] Window manager
+- [ ] Dock / taskbar / status bar
+- [ ] Notification daemon
+- [ ] Configurator / Centralized config panel
+- [ ] Screen locker
+- [ ] Session manager
 
 ----
 
@@ -64,5 +64,50 @@ This will discuss what should be considered as a binding and what those are boun
    * Controller
    * etc...
    But we will only support the first 4s.
-* Combination of bindings would be atributed to actions that the window manager can do.  
-   For example closing a window.
+* Bindings would have combinations that will be atributed to actions that the window manager can do.  
+   For example pressing the `q` key while swiping right with the touch pad would be closing a window.
+* There could be any amount of binding for the same action.
+* The same binding on different actions is totally acceptable.
+
+## Screen locker / Session manager
+
+The screen locker and session manager would idealy be the same. this concept is to be expanded.
+
+## Screen locker  
+
+The screen locker will have the option to be displayed only on selected monitor or primary or all at once.  
+   Every module can be placed as your liking based of screen percent, pixels, dpi and points.
+
+* #### Layout field
+
+   * Keyboard layout field.
+   * Point of access for virtual keyboard.
+   * String and toggle keys can be changed as will: 'Caps lock' -> '', etc...
+
+* #### Date | time field
+
+   * Date and time can be displayed separatly or together.
+   * The format of both can be changed as a string following stdio's format.
+
+* #### Password field  
+   The password field would have different ways of being displayed:
+
+   * Standard password field with stars replacing the characters.
+   * An i3-like circle that changes the color of an arc randomly at each keypress.
+   * An i3-like shapes that changes the color of a part randomly at each keypress.
+   * An i3-like bar that changes the color of a section randomly at each keypress.
+
+* #### Power panel  
+   The power panel would have 4 buttons, which can swaped in any position:
+
+   * Sleep
+   * Hibernate
+   * Poweroff
+   * Restart
+
+* #### Wallpaper  
+
+The wallpaper would have an option to select a different wallpaper from a list randomly or ordered.  
+A Wallpaper can be an image of any format or video in the mp4 format.  
+Of course the audio will be ignored.
+
