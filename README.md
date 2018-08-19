@@ -19,11 +19,11 @@ The De-Lux project's goal is to provide an easy, efficient and versatile desktop
 
 ## Components
 
-- [ ] Window manager
-- [ ] Dock / taskbar / status bar
-- [ ] Notification daemon
-- [ ] Configurator / Centralized config panel
-- [ ] Screen locker
-- [ ] Session manager
+- [ ] [**Prisma**](https://github.com/Njiallu/De-lux/wiki/Prisma-(Window-manager)) _Window manager_
+- [ ] **Snoopy** _Status bar_
+- [ ] **Messenger** _Notification Daemon_
+- [ ] **Huston** _Control center_
+- [ ] [**Curtain**](https://github.com/Njiallu/De-lux/wiki/Curtain-(Screen-locker)) _Screen locker_
+- [ ] Session manager / Desktop manager
 
 ----
