@@ -1,4 +1,8 @@
-<h1 align=center>De-Lux project</h1>
+<h1 align="center">De-Lux project</h1>
+<p align="center">
+   <img src="https://github.com/Njiallu/De-lux/blob/master/delux.svg" alt="logo" width="256"/>
+   <img src="https://github.com/Njiallu/De-lux/blob/master/mocup.png" alt="mocup"/>
+</p>
 
 ---
 
